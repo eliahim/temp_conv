@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "dockerhub_username/temp-converter"
+        DOCKER_IMAGE = "eliahimps/temp-conv:latest"
     }
 
     stages {
