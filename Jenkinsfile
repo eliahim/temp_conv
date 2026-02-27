@@ -9,7 +9,7 @@ pipeline {
 
         stage('Clone Code') {
             steps {
-                git 'https://github.com/USERNAME/temp-converter-app.git'
+                git 'https://github.com/eliahim/temp_conv-app.git'
             }
         }
 
