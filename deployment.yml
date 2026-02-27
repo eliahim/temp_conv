@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: temp-container
-        image: dockerhub_username/temp-converter:latest
+        image: dockerhub_username/temp-conv:latest
         ports:
         - containerPort: 80
 ---
